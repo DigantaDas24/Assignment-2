@@ -5,7 +5,8 @@ body{
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
-        
+    margin: 0;
+    padding: 0;
 }
 /* -------------------- 
    Header starts 
@@ -41,6 +42,10 @@ nav > ul > li:hover > ul{
 .dropdown li{
     padding: 0;
 }
+.header-title{
+    margin-left: 55px;
+}
+
 /* -------------------- 
    Header Ends 
 -----------------------*/
@@ -50,8 +55,10 @@ nav > ul > li:hover > ul{
 .first-section{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin-top: 40px;
+    margin-top: 90px;
     margin-bottom: 60px;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 .first-section img{
     width: 440px;
@@ -80,11 +87,11 @@ nav > ul > li:hover > ul{
   ---------------------*/
   
   .top{
-    border: 1px solid lightgray;
+    border: 1px solid rgb(232, 232, 232);
     margin-bottom: 27px;
   }
   .bottom{
-    border: 1px solid lightgray;
+    border: 1px solid rgb(232, 232, 232);
     margin-top: 27px;
     margin-bottom: 50px;
   }
@@ -99,3 +106,71 @@ nav > ul > li:hover > ul{
    /*--------------------
   Section brands ends 
   ---------------------*/
+
+  /*-----------------------
+    Top collections starts
+-------------------------*/
+
+.top-collection-title{
+    margin-left:500px;
+}
+.top-collections{
+    margin-right: 90px;
+    margin-left: 90px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 70px;
+}
+.filled{
+    color: #FB8200;
+}
+.half{
+    color: #FB8200;
+}
+.collection{
+    margin-bottom: 35px;
+
+}
+.see-more{
+    text-decoration: none;
+    color: #E02C6D;
+    font-weight: 800;
+    float: right;
+}
+  /*-----------------------
+    Top collections ends
+-------------------------*/
+
+/* last section starts */
+.last{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left:90px ;
+    margin-right: 90px;
+}
+.last a{
+    text-decoration: none;
+    background-color: #E02C6D;
+    color: white;
+    padding: 10px 20px;
+}
+/* last section ends */
+/* footer start */
+footer{
+    background-color: rgb(4, 4, 36);
+    width: 1349px;
+    height: 200px;
+    text-align: center;
+    justify-content: center;
+}
+footer h3, p{
+    color: white;
+}
+.social{
+    color: white;
+}
+.footer-info{
+    margin-top: 15px;
+}
+/* footer ends */
