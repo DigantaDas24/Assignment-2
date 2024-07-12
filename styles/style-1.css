@@ -14,7 +14,7 @@ header{
 display: flex;
 align-items: center;
 justify-content: space-between;
-margin:40px 40px 0 40px;
+margin:50px 65px 0 65px;
 }
 ul{
     list-style: none;
@@ -58,13 +58,17 @@ nav > ul > li:hover > ul{
     margin-left: 140px;
 }
 .section-title{
-    margin-left: 40px;
+    margin-left: 65px;
 }
 .section-info{
-    font-size: 50px;
+    font-size: 45px;
 }
-.section-img{
-    margin-right: -25px;
+.section-title a{
+    border-radius: 25px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #E02C6D;
 }
  /*---------------------
  first section ends
