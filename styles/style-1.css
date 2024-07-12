@@ -51,6 +51,7 @@ nav > ul > li:hover > ul{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-top: 40px;
+    margin-bottom: 60px;
 }
 .first-section img{
     width: 440px;
@@ -73,3 +74,28 @@ nav > ul > li:hover > ul{
  /*---------------------
  first section ends
  --------------------- */
+
+ /*--------------------
+  Section brands starts 
+  ---------------------*/
+  
+  .top{
+    border: 1px solid lightgray;
+    margin-bottom: 27px;
+  }
+  .bottom{
+    border: 1px solid lightgray;
+    margin-top: 27px;
+    margin-bottom: 50px;
+  }
+  .brand-img{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
+   /*--------------------
+  Section brands ends 
+  ---------------------*/
